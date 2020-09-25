@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>joystix</name>
+  <version>0.0.0</version>
+  <description>The joystix package</description>
+
+  <maintainer email="craig.a.koziolek@vanderbilt.edu">craig</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>joy</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>joy</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+</package>
