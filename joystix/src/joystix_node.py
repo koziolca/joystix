@@ -9,8 +9,8 @@ def start():
 
 	global leftPub
 	global rightPub
-	leftPub = rospy.Publisher('leftJoystick')
-	rightPub = rospy.Publisher('rightJoystick')
+	leftPub = rospy.Publisher('leftJoystick', float)
+	rightPub = rospy.Publisher('rightJoystick', float)
 
 	rospy.Subscriber('joy', Joy, callback)
 	rospy.init_node('twin_sticks')

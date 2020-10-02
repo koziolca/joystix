@@ -2,12 +2,12 @@
 
     <node respawn = "true" pkg = "joy"
         type = "joy_node" name = "joyA" >
-    <param name = "dev" type = "string" value = "/dev/input/jsX" />
+    <param name = "dev" type = "string" value = "/dev/input/js0" />
     <param name = "deadzone" value = "0.12" />
     </node>
 
     <node pkg = "joystix" name = "twin_sticks"
-        type = "joystix_node" >
+        type = "joystix_node.py" >
     </node>
 
 </launch>
